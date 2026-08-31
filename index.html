@@ -35,12 +35,37 @@
                  <!-- img: adiciona imagem / src: caminho da imagem / alt: legenda da imagem / widht: tamanho da imagem-->
                 <!-- adicionar imagem na minha página --> <!-- src= camiho para imagem--> <!-- alt= alternativa, quando a página não carregar-->
 
-                <span>
-                    <p> isso é um parágrafo</p>
-
-
+                <span class="logo-text">
+                    <!-- span: elemento de texto inline, não quebra linha sozinha -->
+                    <span class="logo-title">Escola Digital Livre</span>
+                    <span class="logo-subtitle">Tecnologia para todos</span>
                 </span>
             </a>
+
+            <nav class="main-nav">
+                <!-- tag semântica para o menu de navegação -->
+                 <a href="index.html" class="nav-link active">Início</a>
+                 <!--  a (link) para navegação, href é o caminho da página, "active" destaca a página atual -->
+
+                 <a href="cursos.html" class="nav-link">Cursos</a>
+                 <a href="#" class="nav-link">Sobre</a>
+                 <a href="#" class="nav-link">Contatos</a>
+
+              
+            </nav>
+            <div class="header-actions">
+                <!-- Agrupa os botões de busca e botão CTA -->
+
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar cursos...">
+                    <!--input campo de entrada / placeholder some assim que o usuário digita --> 
+                         <img src="assets/search-svgrepo-com.svg" alt="ícone de pesquisa" width="30">
+                         <!-- ícone vetorial da lupa -->
+                </div>
+
+                <button class="btn-primary">Começar agora</button>
+                <!-- Botões para ações na página -->
+            </div>
 
 
 
